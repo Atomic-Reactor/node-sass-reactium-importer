@@ -1,0 +1,46 @@
+{
+  "name": "@atomic-reactor/node-sass-reactium-importer",
+  "version": "1.0.0",
+  "description": "A node-sass custom importer for Reactium projects",
+  "repository": "https://github.com/Atomic-Reactor/node-sass-reactium-importer.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "node-sass",
+    "scss",
+    "sass",
+    "tilde",
+    "plus",
+    "webpack",
+    "sass-loader",
+    "node_modules",
+    "reactium",
+    "reactium_modules"
+  ],
+  "author": "Reactium LLC",
+  "license": "MIT",
+  "dependencies": {
+    "find-parent-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testRegex": ".+\\.test.js$",
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "statements": 75,
+        "branches": 75,
+        "functions": 75,
+        "lines": 75
+      }
+    }
+  }
+}
